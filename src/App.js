@@ -4,12 +4,12 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import './App.scss';
 
 import { DOMAINCARD } from './Data';
-import domainCard from './components/domainCard';
+import DomainCard from './components/DomainCard';
 
 class App extends Component {
   render() {
     return (
-      <div className="app">
+      <div className="app">        
         <Tabs>
           <TabList>
             <Tab>Domains</Tab>
@@ -26,7 +26,7 @@ class App extends Component {
             {
               DOMAINCARD.domains.map((el, index) => {
                 return (
-                  <domainCard
+                  <DomainCard
                     type={el.type}
                     price={el.price}
                     priceInfo={el.priceInfo}
