@@ -1,0 +1,40 @@
+.card-holder{
+    //border: 1px solid gold;
+    //flex: 0 0 33%;
+    padding: 1% 5%;
+
+    .info{
+        display: block;
+
+        .domain-price{
+            margin: 0;
+        }        
+
+        .price-info{
+            margin: 0;
+            margin-bottom: 8%;
+
+            color: rgb(189, 189, 189);
+            font-weight: 400;
+        }
+    }
+
+    .button{
+        border: 1px solid blue;
+        border-radius: 4px;
+        .btn{
+            border: none;
+            background: white;
+            color: blue;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 10px 10px;
+
+            &:hover{
+                cursor: pointer;
+                color: rgb(22, 22, 255);
+            }
+        }
+    }
+}
+

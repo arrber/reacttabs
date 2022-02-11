@@ -1,4 +1,5 @@
 import React from "react";
+import './DomainCard.scss';
 
 const DomainCard = props => {
   return (
@@ -7,7 +8,7 @@ const DomainCard = props => {
         <h2 className="domain-type">{props.type}</h2>
       </div>
       <div className="info">
-        <h3 className="domain-price">{props.price}</h3>
+        <h4 className="domain-price">{props.price}</h4>
         <p className="price-info">{props.priceInfo}</p>
       </div>
       <div className="button">

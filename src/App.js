@@ -23,17 +23,19 @@ class App extends Component {
           </TabList>
 
           <TabPanel>
-            {
-              DOMAINCARD.domains.map((el, index) => {
-                return (
-                  <DomainCard
-                    type={el.type}
-                    price={el.price}
-                    priceInfo={el.priceInfo}
-                  />
-                );
-              })
-            }
+            <div className="domain">
+              {
+                DOMAINCARD.domains.map((el, index) => {
+                  return (
+                    <DomainCard
+                      type={el.type}
+                      price={el.price}
+                      priceInfo={el.priceInfo}
+                    />                  
+                  );
+                })
+              }
+            </div>
           </TabPanel>
           <TabPanel>
             <h2>Any content 2</h2>
