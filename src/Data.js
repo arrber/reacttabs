@@ -1,4 +1,4 @@
-export const DOMAINCARD = {
+export const DomainData = {
     domains: [
         {
             type: ".COM",
