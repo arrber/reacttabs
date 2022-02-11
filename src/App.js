@@ -4,6 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import './App.scss';
 
 import { DomainData } from './Data';
+import DomainCard from './components/DomainCard';
 
 class App extends Component {
   render() {
