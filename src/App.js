@@ -66,14 +66,3 @@ class App extends Component {
 
 export default App;
 
-/*
-ME provu prej git push qito tan me bo deply prej git en netfly
-
-Ose me bo reclone appet ne git me fal se mu blloku llaptopi se ehapa nje xd file shume te rand smujsha as me te tregu, okeje beje deploy ne git e provoje se keshtu ska asnje prb tjeter pervec asaj shkronjes ma heret
-se shum wierd pse DomainCard.js nuk e ka bo push en git me capital letter?
-
-Me fshi krejt prej git me bo readd ? jo vec fshije kete file domainCard e beje tjeter
-okej?
-
-Okej
-*/
